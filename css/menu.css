@@ -1,0 +1,243 @@
+/* ===================================================*/
+/* SMALL MOBILE: up to 640px*/
+/* ===================================================*/
+	/* ===============================================*/
+	/* MENU BAR */
+	/* ===============================================*/
+	.menu_wrapper {
+		background: rgba(5, 5, 5, 1);
+		position: fixed;
+		clear: none;
+		float: left;
+
+		z-index: 1000;
+			
+		width: 100%;
+		min-width: 240px;
+
+		box-shadow: 0px 0px 5px rgba(70,70,70, 0.8);
+		overflow: hidden;
+	}
+
+	.menu_bar {
+		height: 100%;
+  		overflow: hidden;
+	}
+
+	.menu_bar a {
+  		float: left;
+
+		height: 23pt;
+		padding-top: 8pt; 
+		padding-left: 10pt;
+		padding-right: 10pt;
+		
+
+  		color: rgba(240,240,240,1);
+  		text-align: center;
+  		text-decoration: none;
+		vertical-align: middle;
+  		font-size: 11pt;
+
+		display: block;
+	}
+
+	.menu_bar a:hover {
+  		background-color: rgba(236,112,20,1);
+	}
+
+	.menu_bar .icon {
+		margin-top: -5pt;
+		
+		width: 100%;
+		padding-bottom: 5pt;
+		
+		text-align: left;
+		display: none;
+	}
+
+	.menu_bar a.icon:hover {
+		background-color: rgba(236,112,20,0);
+	}
+
+@media screen and (max-width: 640px) {
+  	.menu_bar a:not(:first-child) {display: none;}
+  	.menu_bar a.icon {
+  	 	float: left;
+    		display: block;
+  	}
+}
+
+@media screen and (max-width: 640px) {
+  	.menu_bar.responsive {position: relative;}
+  	.menu_bar.responsive .icon {
+    		position: relative;
+		clear: none;
+		float: left;
+		
+		width: 100%;
+		padding-bottom: 5pt;
+	}
+  	.menu_bar.responsive a {
+    		float: left;
+		width: 100%;
+    		display: block;
+    		text-align: left;
+  	}
+
+	.menu_bar.responsive a.icon:hover {
+		background-color: rgba(236,112,20,0);
+	}
+
+}
+
+
+/* ===================================================*/
+/* TABLET: 641px to 767px*/
+/* ===================================================*/
+@media screen and (min-width: 641px) {
+	.menu_bar a {
+		float: left;
+
+		margin-left: auto;
+		margin-right: auto;
+
+		width: 16.66%;
+		height: 28pt;
+		padding-left: 0pt;
+		padding-right: 0pt;
+		padding-top: 11pt;
+
+		font-size: 12pt;
+	}
+}
+
+/* END TABLET FORMAT */
+
+
+/* ===================================================*/
+/* DESKTOP: 768px AND ABOVE */
+/* ===================================================*/
+@media screen and (min-width: 768px) {
+	.menu_bar {
+		clear: none;
+		float: none;
+		
+		margin-left: auto;
+		margin-right: auto;
+
+		width: 90%;
+		max-width: 1368px;
+	}
+	
+	.menu_bar a {
+		height: 30pt;
+		padding-top: 12pt;
+
+		font-size: 14pt;
+	}
+}
+
+
+	/* ===================================================*/
+	/* IF JAVASCRIPT IS OFF */
+	/* ===================================================*/
+/* ===================================================*/
+/* SMALL MOBILE: up to 640px*/
+/* ===================================================*/
+	.menu_wrapper_no_script {
+		background: rgba(5, 5, 5, 1);
+		position: fixed;
+		clear: none;
+		float: left;
+
+		z-index: 1001;
+
+		width: 100%;
+		
+		min-width: 240px;
+
+		box-shadow: 0px 0px 5px rgba(70,70,70, 0.8);
+		overflow: hidden;
+	}
+
+	.menu_bar_no_script {
+		height: 100%;
+  		overflow: hidden;
+	}
+
+	.menu_bar_no_script a {
+  		float: left;
+
+		height: 18pt;
+		padding-top: 3pt; 
+		width: 50%;
+
+  		color: rgba(240,240,240,1);
+  		text-align: center;
+  		text-decoration: none;
+		vertical-align: middle;
+  		font-size: 11pt;
+
+		display: block;
+	}
+
+	.menu_bar_no_script a:hover {
+  		background-color: rgba(60,180,196,1);
+	}
+
+/* ===================================================*/
+/* TABLET: 641px to 767px*/
+/* ===================================================*/
+@media screen and (min-width: 641px) {
+	.menu_wrapper_no_script {
+		height: 
+	}
+	.menu_bar_no_script a {
+		float: left;
+		
+		z-index: 999;
+
+		margin-left: auto;
+		margin-right: auto;
+
+		width: 16.66%;
+		height: 28pt;
+		padding-left: 0pt;
+		padding-right: 0pt;
+		padding-top: 11pt;
+
+		font-size: 12pt;
+	}
+}
+
+/* END TABLET FORMAT */
+
+
+/* ===================================================*/
+/* DESKTOP: 768px AND ABOVE */
+/* ===================================================*/
+@media screen and (min-width: 768px) {
+	.menu_bar_no_script {
+		clear: none;
+		float: none;
+		
+		margin-left: auto;
+		margin-right: auto;
+
+		width: 90%;
+		max-width: 1368px;
+	}
+	
+	.menu_bar_no_script a {
+		height: 30pt;
+		padding-top: 12pt;
+
+		font-size: 14pt;
+	}
+}
+
+
+/* ===================================================*/
+/* END MENU STYLE */
+/* ===================================================*/

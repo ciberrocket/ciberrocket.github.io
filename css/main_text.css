@@ -1,0 +1,281 @@
+/* ===================================================*/
+/* SMALL MOBILE: up to 640px*/
+/* ===================================================*/
+	/* ===============================================*/
+	/* MAIN TEXT */
+	/* ===============================================*/	
+	.main_text_background {
+		background: rgba(256, 256, 256, 1);
+		position: relative;
+		clear: none;
+		float: left;
+		margin-left: auto;
+		margin-right: auto;
+		
+		width: 100%;
+		min-width: 240px;
+		padding-top: 5pt;
+	}
+	
+	.main_text_wrapper {
+		position: relative;
+		clear: none;
+		float: left;
+		margin-left: auto;
+		margin-right: auto;
+		
+		width: 88%;
+		padding-left: 6%;
+		padding-right: 6%;
+		min-width: 230px;
+		
+		font-weight: 400;
+		
+		display: block;
+	}
+	
+	.text_full_width {
+		position: relative;
+		clear: none;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		
+		overflow: auto;
+		overflow-wrap: break-word;
+		
+		width: 100%;
+		
+		font-size: 11pt;
+		vertical-align: middle;
+		
+		display: block;
+	}
+	
+	.image_wrapper {
+		position: relative;
+		clear: none;
+		float: none;
+		
+		margin-top: 5pt;
+		margin-bottom: 5pt;
+		width: 100%;
+
+		padding-bottom: 10pt;
+		
+		font-size: 10.5pt;
+		text-align: left;
+		
+		color: rgba(8,81,156,1);
+	}
+	
+	.image_wrapper_right {
+		position: relative;
+		clear: none;
+		float: none;
+		
+		margin-top: 5pt;
+		margin-bottom: 5pt;
+		width: 100%;
+		
+		padding-bottom: 10pt;
+
+		font-size: 10.5pt;
+		text-align: left;
+		
+		color: rgba(8,81,156,1);
+	}
+	
+	.image_wrapper_center {
+		position: relative;
+		clear: none;
+		float: none;
+		
+		margin-top: 5pt;
+		margin-bottom: 5pt;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		
+		padding-bottom: 10pt;
+
+		font-size: 10.5pt;
+		text-align: left;
+		
+		color: rgba(8,81,156,1);
+	}
+
+	.image {
+		position: relative;
+		clear: none;
+		float: none;
+		
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -5pt;
+		
+		width: 65%;
+		
+		display: block;
+	}
+	
+	.side_panel {
+		position: relative;
+		clear: none;
+		float: left;
+		
+		width: 100%;
+	}
+
+	.accordion { 
+		background-color: rgba(256, 256, 256, 1);
+  		cursor: pointer;
+		padding-left: 18pt;
+		padding-right: 18pt;
+		padding-top: 18pt;
+		padding-bottom: 2pt;
+ 
+  		width: 100%;
+	
+  		text-align: left;
+  		border: none;
+  		outline: none;
+  		transition: 0.4s;
+
+		font-size: 160%;
+		font-weight: 400;
+	}
+
+	.accordion:hover {
+  		color: rgba(236,112,20, 1);
+	}
+
+	.accordion:after {
+  		content: "[open/close]"; /* Unicode character for "plus" sign (+) */
+  		font-size: 65%;
+		font-weight: 300;
+  		color: rgba(236,112,20, 1);
+  		float: right;
+  		margin-left: 5pt;
+	}
+
+	.active:after {
+  		content: "[open/close]"; /* Unicode character for "minus" sign (-) */
+	}
+
+	.accordion_content {
+  		background-color: inherit;
+  		overflow: hidden;
+		display: none;
+	}
+	
+	table_style,tr,td {
+		border: 1.5pt solid rgba(200,200,200,1);
+		margin-left: 5%;
+		margin-right: 5%;
+	 	width: 90%;
+	}
+	th,td {
+		table-layout: fixed;
+		width: 10%;
+		padding: 2pt;
+	}
+/* ===================================================*/
+/* TABLET: 641px to 767px*/
+/* ===================================================*/
+@media only screen and (min-width: 641px) {
+	.text_full_width {
+		font-size: 12pt;
+	}
+	
+	.image_wrapper {
+		clear: both;
+		float: left;
+		width: 45%;
+		padding-right: 4%;
+		
+		font-size: 11pt;
+		
+		overflow: auto;
+	}
+	
+	.image_wrapper_right {
+		clear: both;
+		float: right;
+		width: 45%;
+		padding-left: 3%;
+		
+		font-size: 11pt;
+		
+		overflow: auto;
+	}
+	
+	.image_wrapper_center {
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+		
+		font-size: 11pt;
+	}
+	
+	.image {
+		width: 100%;
+	}
+	
+	.side_panel {
+		width: 46%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+
+} /* END TABLET FORMAT */
+
+
+/* ===================================================*/
+/* DESKTOP: 768px AND ABOVE */
+/* ===================================================*/
+@media only screen and (min-width: 768px) {
+	.text_full_width {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		
+		max-width: 1368px;
+	}
+	
+	.image_wrapper {
+		width: 40%;
+		padding-right: 4.5%;
+	}
+	
+	.image_wrapper_right {
+		width: 40%;
+		padding-left: 3.5%;
+	}
+	
+	.image_wrapper_center {
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 70%;
+	}
+	
+	.image {
+		max-width: 350px;
+	}
+
+		
+	.accordion { 
+		margin-left: 8%;
+		margin-right: 8%;
+		width: 84%;
+
+	}
+	
+} /* END DESKTOP FORMAT */
+
+
+/* ===================================================*/
+/* END FOOTER STYLE */
+/* ===================================================*/
+
