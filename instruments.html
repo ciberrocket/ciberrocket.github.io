@@ -1,0 +1,734 @@
+<!-- ********************************************************************-->
+<!-- ********************************************************************-->
+<!-- ALL COMMENTS ARE IN CAPS -->
+<!-- ********************************************************************-->
+<!-- ********************************************************************-->
+<!doctype html>
+<!-- WORKAROUND FOR OLD UNSUPPORTED BROWSERS -->
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+
+<!-- WEBSITE HEAD-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Cosmic Infrared Background ExpeRiment</title>
+
+<!-- INCLUDE CSS FILES-->
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css"> <!-- boilerplate template to fixed cross browser issues -->
+<link href="css/normalize.css" rel="stylesheet" type="text/css"> <!-- boilerplate template -->
+<link href="css/master_style.css" rel="stylesheet" type="text/css"> <!-- GLOBAL STYLE -->
+<link href="css/menu.css" rel="stylesheet" type="text/css"> <!-- MENU STYLE -->
+<link href="css/header.css" rel="stylesheet" type="text/css"> <!-- HEADER STYLE -->
+<link href="css/main_text.css" rel="stylesheet" type="text/css"> <!-- MAIN TEXT STYLE -->
+<link href="css/footer.css" rel="stylesheet" type="text/css"> <!-- FOOTER STYLE --> 
+<noscript>
+	<style>
+		.accordion_content { display:block; }
+	</style>
+</noscript>
+</head> <!-- END WEBSITE HEAD -->
+
+<!-- WEBSITE CONTENT STARTS HERE -->
+<body>
+
+<!-- ********************************************************************-->
+<!-- ********************************************************************-->
+<!-- MENU BAR -->
+<div class="menu_wrapper" id="menu_wrapper">
+	<div id="menu" class="menu_bar">	
+		<a href="javascript:void(0);" style="font-size:17pt;" class="icon" onclick="openMenu()">&#9776;</a>
+		<a href="index.html">Home</span></a>
+		<a href="science.html">Science</a>
+		<a href="instruments.html">
+			<span class="underline">Instruments</span>
+		</a>	
+		<a href="team.html">The Team</a>
+		<a href="media.html">Media</a>
+		<a href="publications.html">Publications</a>
+	</div>
+</div>
+
+<!-- IF JAVASCRIPT IS TURNED OFF, REPLACE THE RESPONSIVE MENU WITH A SIMPLE TOP MENU -->
+<noscript>
+	<div class="menu_wrapper_no_script" id="menu_wrapper">
+		<div id="menu" class="menu_bar_no_script">	
+			<a href="index.html">Home</span></a>
+			<a href="science.html">Science</a>
+			<a href="instruments.html">
+				<span class="underline">Instruments</span>
+			</a>
+			<a href="team.html">The Team</a>
+			<a href="media.html">Media</a>
+			<a href="publications.html">Publications</a>
+		</div>
+	</div>
+</noscript>
+
+<!-- ********************************************************************-->
+<!-- ********************************************************************-->
+<!-- MAIN CONTENT -->
+<!-- HEADER -->
+<div class="header_image">
+</div>
+<div class="header_wrapper">
+	<div id="header" class="header">
+		<h1><center>CIBER & CIBER-2</center></h1>
+		<h2><center>Payloads & Instrumentation</center></h2>
+	</div>
+</div>
+<!-- ------------------------- -->
+<!-- ------------------------- -->
+<!-- TEXT -->
+<div class="main_text_background">
+	<div class="main_text_wrapper">
+	
+		<!-- *************************************************** -->
+		<!-- --------------------- CIBER-2 --------------------- -->
+		<!-- *************************************************** -->
+
+		<button class="accordion">CIBER-2</button>
+		<div class="accordion_content">
+			<div id="main_text" class="text_full_width">
+
+				<div class="image_wrapper_right">
+					<img src="images/CIBER2render2020.png" alt="CIBER-2 design model" class="image">
+					</img><br>
+					<center>CIBER design model.</center>
+				</div>
+
+				<!-- /////////////////////////////////////////// -->
+				<!--                    OVERVIEW                 -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "CIBER2top"></span>
+				<h3>Overview</h3>
+				<p><b><a href="#CIBER2spec">CIBER-2</a></b> is a cryogenic payload using liquid nitrogen to minimize noises in the electronics. 
+CBER-2 will launch multiple times on Black Brant IX (BBIX) rockets with ~300 seconds of scientific data per flight to account for unforeseeable technical errors and incorporate new science and technology developments into the experiment as needed.</p>
+				
+				<li> 28.5-cm telescope with raw etendue (light gathering power) 10x that of CIBER</li>
+				<li> Three state-of-the-art HAWAII-2RG detectors with custom readout electronics</li>
+				<li> One dual-band windowpane filter per detector to observe simultaneously in six wavebands spanning 0.5 - 2.5 &mu;m, significantly expanding the spectral coverage from CIBER</li> 
+				<li> Cryogenic star tracker CSTARS-2</a></b> to validate the performance of a scientific CMOS (sCMOS) detector in space.</li>
+
+
+				<!-- /////////////////////////////////////////// -->
+				<!--                 SPECIFICATIONS              -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "CIBER2spec"></span>
+				<button class="accordion">Specifications</button>
+					<div class="accordion_content">			
+						<div id="main_text_CIBER2spec" class="text_full_width">
+							<!-- ----- CIBER-2 SPEC TABLE ----- -->
+							<table class="table_style">
+  								<tr>
+    									<td>Aperture</td>
+    									<td colspan="6">28.5</td>
+    									<td>cm</td>
+  								</tr>
+								<tr>
+    									<td>Pixel size</td>
+    									<td colspan="6">4</td>
+    									<td>arcsec</td>
+  								</tr>
+								<tr>
+    									<td>FOV</td>
+    									<td colspan="6">2.3 x 2.3 (full)<br>1.1 x 2.3 per filter</td>
+    									<td>degrees</td>
+  								</tr>
+								<tr>
+    									<td>&lambda;</td>
+    									<td>0.6 (R)</td>
+    									<td>0.8 (I)</td>
+									<td>1.1 (Z)</td>
+    									<td>1.3 (J)</td>
+									<td>1.6 (H)</td>
+    									<td>1.8 (Ks)</td>
+									<td>&mu;m</td>
+  								</tr>
+								<tr>
+    									<td>&Delta;&lambda;/&lambda;</td>
+    									<td>0.33</td>
+    									<td>0.25</td>
+									<td>0.19</td>
+    									<td>0.12</td>
+									<td>0.16</td>
+    									<td>0.17</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Array QE</td>
+    									<td>0.90</td>
+    									<td>0.80</td>
+									<td>0.83</td>
+    									<td>0.81</td>
+									<td>0.82</td>
+    									<td>0.82</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Optics efficiency</td>
+    									<td>0.75</td>
+    									<td>0.73</td>
+									<td>0.81</td>
+    									<td>0.85</td>
+									<td>0.87</td>
+    									<td>0.87</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Photo current</td>
+    									<td>14.7</td>
+    									<td>10.3</td>
+									<td>8.50</td>
+    									<td>6.20</td>
+									<td>7.60</td>
+    									<td>4.30</td>
+									<td>e-/s</td>
+  								</tr>
+								<tr>
+    									<td>Dark current</td>
+    									<td colspan="2">0.25</td>
+    									<td colspan="2">0.09</td>
+									<td colspan="2">0.25</td>
+									<td>e-/s</td>
+  								</tr>
+								<tr>
+    									<td>Read noise (CDS)</td>
+    									<td colspan="2">16</td>
+    									<td colspan="2">19</td>
+									<td colspan="2">15</td>
+									<td>e-</td>
+  								</tr>
+								<tr>
+    									<td>&delta;&nu;I&nu; inst</td>
+    									<td>34.3</td>
+    									<td>34.5</td>
+									<td>31.4</td>
+    									<td>30.0</td>
+									<td>20.3</td>
+    									<td>16.9</td>
+									<td>nW m<sup>-2</sup> sr<sup>1</sup></td>
+  								</tr>
+								<tr>
+    									<td>&delta;F&nu; inst</td>
+    									<td>20.8</td>
+    									<td>20.2</td>
+									<td>19.6</td>
+    									<td>19.3</td>
+									<td>19</td>
+    									<td>18.8</td>
+									<td>Vega mag 3&sigma;</td>
+  								</tr>
+							</table>
+						</div>
+					</div>
+
+				<!-- ------------------------- -->
+				<div class="hr_wrapper">
+					<hr>
+				</div>
+				<!-- ------------------------- -->
+
+				<!-- /////////////////////////////////////////// -->
+				<!--                  STAR TRACKER               -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "cstars"></span>
+				<button class="accordion">Cryogenic Star Tracker</button>
+					<div class="accordion_content">			
+						<div id="main_text_cstars" class="text_full_width">
+						To improve the accuracy of pointing during observation in space, CIBER-2 will have an additional star tracker looking in the same direction as the experiment, using the same telescope. The star tracker is required to work in the same cryogenic environment as the telescope and the imaging optics. This star tracker presents an opportunity for the development and verification of a camera using a scientific CMOS (sCMOS) detector at low temperatures. sCMOS surpass conventional CMOS in term of signal-to-noise ratio, but this technology has not been evaluated in a space mission nor at cryogenics. The development of this cryogenic star tracker has extended beyond CIBER-2 and the star tracker has become its own project, titled the Cryogenic Star Tracking and Attitude Regulation System (CSTARS). The prototype version, CSTARS-1 will fly separately on a technology development payload while the second version, CSTARS-2, is being integrated into CIBER-2.
+						</div>
+					</div>
+			</div>
+		</div>
+		<br>
+		<!-- ------------------------- -->
+		<div class="hr_wrapper">
+			<hr>
+		</div>
+		<!-- ------------------------- -->
+		
+		<!-- *************************************************** -->
+		<!-- ---------------------- CIBER ---------------------- -->
+		<!-- *************************************************** -->
+
+		<button class="accordion">CIBER</button>
+		<div class="accordion_content" style="display:block;">
+
+			<div id="main_text_2" class="text_full_width">
+
+				<div class="image_wrapper">
+					<img src="images/ciber_full_assembly.png" alt="CIBER design model" class="image">
+					</img><br>
+					<center>CIBER design model.</center>
+				</div>
+
+				<div class="image_wrapper">
+					<img src="images/ciber_instrument.jpg" alt="CIBER instrument photo" class="image">
+					</img><br>
+					CIBER instruments in the clean room. Top row: the wide field imagers. Bottom row: Low-Resolution Spectrometer (left), Narrow-Band Spectrometer (right).
+				</div>
+
+				<!-- /////////////////////////////////////////// -->
+				<!--                    OVERVIEW                 -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "CIBERtop"></span>
+				<h3>Overview</h3>
+				<br>
+
+				<!-- ------- wide file imager ------- -->
+				<a href="#WFI"><b>Wide-Field Imager</b></a> measures extragalactic fluctuations on large angular scales. These angular scales are critical to detect the characteristic first-light galaxy power spectrum.
+				<li> Wide 2x2 degree field eliminates mosaicing artifacts </li>
+				<li> Two spectral bands discriminate first-light fluctuations from foregrounds </li>
+				<li> Spatial resolution of 7" deeply removes galaxy clustering and shot noise </li>
+				<li> High sensitivity probes significantly deeper than the fluctuations reported by Spitzer and the IRTS </li>
+				<br>
+
+				<!-- ------- narrow band specs ------- -->
+				<a href="#NBS"><b>Narrow-Band Spectrometer</b></a> measures the absolute intensity of the Zodiacal brightness using the reflected CaII 854.2 nm Fraunhofer absorption line in order to test Zodiacal dust models.
+				<li> Compact imaging spectrometer detects theintegrated Ca II 854.2 nm line strength.</li>
+				<li> High sensitivity measures the absolute Zodiacal brightness to < 1 % in 6 fields.</li>
+				<li> Control systematic errors associated with the instrument to 3 % in order to compare with DIRBE J-band.</li>
+				<br>
+
+				<!-- --------- low res specs --------- -->
+				<a href="#LRS"><b>Low-Resolution Spectrometer</b></a> searches for the Lyman cutoff signature of reionization in the IRB. At the IRB level reported by the IRTS, such a bright feature would be apparent without any foreground subtraction. It will also measure the Zodiacal color.
+				<li>Absolute grating spectrometer measures in the spectrally unexplored 0.8 - 2.0 μm range between IRTS and HST.</li>
+				<br>
+				
+
+				<!-- /////////////////////////////////////////// -->
+				<!--           WIDE FIELD IMAGER DETAILS         -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "WFI"></span>
+				<button class="accordion">Wide Field Imager</button>
+					<div class="accordion_content">			
+						<div id="main_text_WFI" class="text_full_width">
+							<p>The wide-field imager probes large angular scales where first-light fluctuations are expected to peak, and where they can best be separated from galaxy clustering and shot noise. The imager data will be combined with shallow Spitzer and Akari survey fields to allow us to detect and remove galaxies in the camera images. CIBER complements these facilities by virtue of its much wider FOV, providing sensitivity to fluctuations on large angular scales, and shorter wavelength coverage, crucial for discriminating a first-light component.</p>
+
+							<p>The wide-field imager consists of dual 11-cm refracting telescopes cooled to 77 K, imaging onto two 1024 x 1024 focal plane arrays. All-spherical refracting optics provide diffraction-limited performance from 0.75 to 2.2 μm over a 2deg x 2deg field of view. The spatial resolution is determined by the 7" pixel size, not aberrations or diffraction.</p>
+							<div class="image_wrapper_center">
+								<img src="images/WideFieldImager.jpg" alt="Wide Field Imager photo">
+								</img><br>
+								Schematic and photograph of the wide-field imaging telescopes. The lenses are coated with a broad band high-efficiency anti-reflection coating providing > 80 % end-to-end efficiency. The entrance aperture is 11 cm and the total track is 55 cm. <a href="images/WideFieldImager.jpg">[Click to enlarge]</a>
+							</div>
+
+							<p>The pixel size of 7" reduces the local-galaxy clustering signal, giving us a sufficient density of pixels to remove sources down to I = 21, H = 20 with modest data loss. CIBER itself reaches a limiting point source sensitivity of I = 18.4 and H = 18.2 mag (3&sigma;); several times deeper than 2MASS. We quote a 3σ threshold because we are only interested in rejecting point sources from the data, not extracting and cataloging them. Source confusion, using deep galaxy counts, is 2-3 times below the instrument noise.</p>
+
+							<p>The 1024 detector arrays are sampled continuously every 1.8 s, providing background-limited performance. We use an off-chip JFET follower to eliminate multiplexer glow. In order to minimize dark current associated with temperature drifts, the array is mounted on a thermally isolated stage, which is monitored with sensitive DC-stabilized thermometry and thermally regulated. A cold shutter placed just above the array allows us to record dark frames prior to launch, and on ascent and descent.</p>
+							
+							
+							<div class="image_wrapper_center">
+								<img src="images/h-bandsim.gif" alt="Simulated image in H-band">
+								</img><br>
+								Multi-panel simulations in a 2° x 2° field at H-band. Reading from the upper left-hand corner: a) simulated first-light galaxy spatial fluctuations, adapted from numerical simulations of baryonic matter density to match the optimistic power spectrum in Fig. 3; b) galaxies, taken from deep NOAO images; c) combined first-light fluctuations, instrument noise, and H < 24 galaxies; d) combined fluctuations, noise, flat field, and 21 < H < 24 galaxies; e) recovered first-light galaxy fluctuations; f) recovered pessimistic fluctuations. Whereas the optimistic fluctuations are clearly visible above the noise, statistical techniques are needed to extract the pessimistic signal, which is 10 times fainter in surface brightness. <a href="images/h-bandsim.gif">[Click to enlarge]</a>											
+							</div>
+							<!-- ------- WFI SPEC TABLE ------- -->
+							<table class="table_style">
+  								<tr>
+    									<td>Aperture</td>
+    									<td colspan="2">11</td>
+    									<td>cm</td>
+  								</tr>
+								<tr>
+    									<td>Pixel size</td>
+    									<td colspan="2" style="width:40%">7</td>
+    									<td style="width:20%">arcsec</td>
+  								</tr>
+								<tr>
+    									<td>FOV</td>
+    									<td colspan="2">2.0x2.0</td>
+    									<td>degrees</td>
+  								</tr>
+								<tr>
+    									<td>Integrating time</td>
+    									<td colspan="2">50</td>
+    									<td>seconds</td>
+  								</tr>
+								<tr>
+    									<td>&lambda;</td>
+    									<td>1.1 (I)</td>
+    									<td>1.6 (H)</td>
+									<td>&mu;m</td>
+  								</tr>
+								<tr>
+    									<td>&Delta;&lambda;/&lambda;</td>
+    									<td>0.38</td>
+    									<td>0.56</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Array QE</td>
+    									<td>0.51</td>
+    									<td>0.70</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Optics efficiency</td>
+    									<td>0.9</td>
+    									<td>0.9</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Filter efficiency</td>
+    									<td>0.92</td>
+    									<td>0.89</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Total efficiency</td>
+    									<td>0.42</td>
+    									<td>0.56</td>
+									<td></td>
+  								</tr>
+								<tr>
+    									<td>Photo current</td>
+    									<td>4.9</td>
+    									<td>11</td>
+									<td>e-/s</td>
+  								</tr>
+								<tr>
+    									<td>Dark current</td>
+    									<td>0.35</td>
+    									<td>0.45</td>
+									<td>e-/s</td>
+  								</tr>
+								<tr>
+    									<td>Read noise (CDS)</td>
+    									<td>10</td>
+    									<td>9</td>
+									<td>e-</td>
+  								</tr>
+								<tr>
+    									<td>&nu;I&nu; (sky)</td>
+    									<td>420</td>
+    									<td>370</td>
+									<td>nW m<sup>-2</sup> sr<sup>1</sup></td>
+  								</tr>
+								<tr>
+    									<td>&delta;&nu;I&nu; inst</td>
+    									<td>33.1</td>
+    									<td>17.5</td>
+									<td>nW m<sup>-2</sup> sr<sup>1</sup></td>
+  								</tr>
+								<tr>
+    									<td>&delta;F&nu; inst</td>
+    									<td>18.4</td>
+    									<td>17.8</td>
+									<td>Vega mag 3&sigma;</td>
+  								</tr>
+								<tr>
+    									<td>CIBER galaxy cut</td>
+    									<td>2.2e3, I &gt; 18.4<br>0.3%</td>
+    									<td>4.5e3, H &gt; 17.8<br>0.8%</td>
+									<td>#/sq degree mag cut pixel los</td>
+  								</tr>
+								<tr>
+    									<td>Deep galaxy cut</td>
+    									<td>6.0e4, I &gt; 23.0<br>25%</td>
+    									<td>6.0e4, H &gt; 21.5<br>25%</td>
+									<td>#/sq degree mag cut pixel los</td>
+  								</tr>
+							</table>
+						<br>
+						</div>
+						
+						<div class="text_full_width">	
+							<a href="#CIBERtop">[Back to Overview]</a>
+						</div>
+					</div>
+				<!-- ------------------------- -->
+				<div class="hr_wrapper">
+					<hr>
+				</div>
+				<!-- ------------------------- -->
+
+				<!-- /////////////////////////////////////////// -->
+				<!--           NARROW BAND SPEC DETAILS          -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "NBS"></span>
+				<button class="accordion">Narrow-Band Spectrometer</button>
+					<div class="accordion_content">
+						<div id="NBS_main" class="text_full_width">
+							<p>Uncertainties in the Zodiacal dust model play a leading role in the systematic errors for determining the IRB. The differences in the data from prior IRB observations at 1.2 &mu;m are principally the result of using different models of the Zodiacal dust based on DIRBE observations. The IRTS residual, based on a modified Kelsall DIRBE dust model, closely follows the spectrum of Zodiacal dust and could be entirely explained by a 23 % error in the Zodiacal dust brightness. The narrow-band spectrometer will provide a new and independent measurement of the Zodiacal dust brightness using Fraunhofer absorption lines. Spectroscopy of optical Fraunhofer lines has been used to estimate and remove the zodiacal light for optical extragalactic background measurements, and to study the dynamics of the zodiacal dust cloud.</p>
+							
+							<br>
+							<div class="image_wrapper_center">
+								<img src="images/NBS.jpg" alt="Narrow Band Spectrometer photo">
+								</img><br>
+								Ray trace of the narrow-band spectrometer refracting optics. The narrow-band filter is the first optical element in the assembly. The spectral response of the instrument varies over the FOV, shifting towards shorter wavelengths from center to edge. The entrance aperture is 75 mm. <a href="images/NBS.jpg">[Click to enlarge]</a>
+							</div>
+							
+							<p>The narrow-band spectrometer (NBS) is a small wide-field refractor with a narrow-band filter placed as the first optical element. Rays passing through such a dielectric etalon experience a wavelength shift &lambda; = &lambda;0 cos &theta;i, where &theta;i is the angle of the ray inside the dielectric. Thus the wavelength response of the spectrometer varies over the array, by an amount depending on the entrance angle. This can be tailored so that the response at the array center is tuned on a Fraunhofer line, and then shift entirely off the line at the edge of the FOV.</p>
+							<p>The spectrometer can measure the zodiacal intensity with signal to noise ratio of 50 at the north ecliptic pole in a 50 s observation (with similar S/N at lower ecliptic latitudes in shorter observations). The photon level, signal contrast, and the S/N per pixel, are all low, so careful attention must be paid to dark current, stray light, and out of band blocking.</p>
+							
+							<br>
+							<!-- ------- NBS SPEC TABLE ------- -->
+							<table class="table_style">
+								<tr>
+									<td>Aperture</td>
+									<td>7.5</td>
+									<td>cm</td>
+								</tr>
+								<tr>
+									<td>Wavelength</td>
+									<td>854.2nm</td>
+									<td>cm</td>
+								</tr>
+								<tr>
+									<td>Resolution</td>
+									<td>1000</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Pixel size</td>
+									<td>2</td>
+									<td>arcmin</td>
+								</tr>
+								<tr>
+									<td>FOV</td>
+									<td>8.5x8.5</td>
+									<td>degrees</td>
+								</tr>
+								<tr>
+									<td>F#</td>
+									<td>0.9</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>F-P efficiency</td>
+									<td>0.7</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Optics efficiency</td>
+									<td>0.9</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Array</td>
+									<td>256x256</td>
+									<td>PICNIC HgCdTe</td>
+								</tr>
+								<tr>
+									<td>Array QE</td>
+									<td>0.55</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>&nu;I&nu; sky</td>
+									<td>550</td>
+									<td>nW m<sup>-2</sup> sr<sup>-1</sup></td>
+								</tr>
+								<tr>
+									<td>Photo current</td>
+									<td>1.5</td>
+									<td>e-/s/td>
+								</tr>
+								<tr>
+									<td>Contrast</td>
+									<td>37</td>
+									<td>%</td>
+								</tr>
+								<tr>
+									<td>Dark current</td>
+									<td>&lt; 0.1</td>
+									<td>e-/s</td>
+								</tr>
+								<tr>
+									<td>Read noise (CDS)</td>
+									<td>30</td>
+									<td>e-</td>
+								</tr>
+								<tr>
+									<td>Integrating time</td>
+									<td>50</td>
+									<td>s</td>
+								</tr>
+								<tr>
+									<td>&delta;F&nu;</td>
+									<td>40</td>
+									<td>mJy, I ~ 12 (3&sigma;)</td>
+								</tr>
+								<tr>
+									<td>S/N zodi</td>
+									<td>150</td>
+									<td>100x100 px</td>
+								</tr>
+							</table>
+							<br>
+							<a href="#CIBERtop">[Back to Overview]</a>
+						</div>
+					</div>
+	
+				<!-- ------------------------- -->
+				<div class="hr_wrapper">
+					<hr>
+				</div>
+				<!-- ------------------------- -->
+
+				<!-- /////////////////////////////////////////// -->
+				<!--              LOW RES SPEC DETAILS           -->
+				<!-- /////////////////////////////////////////// -->
+				<span id = "LRS"></span>
+				<button class="accordion">Low-Resolution Spectrometer</button>
+					<div class="accordion_content">
+						<div id="LRS_main" class="text_full_width">
+							<p>The low-resolution spectrometer (LRS) is designed to measure the absolute spectrum of the near-infrared background in the 0.8 - 2.0 μm spectral region, in a search for the redshifted Ly-cutoff feature, a signature of UV photon emission from when the universe was partially ionized. The IRB may peak at λ ~ 1-2 μm and fall in brightness in the optical. The transition from the near-infrared to the optical, if confirmed, would have a much different spectral shape than either zodiacal light or the integrated counts of galaxies, providing definitive evidence for a first-light galaxy IRB.</p>
+							
+							<p>The LRS is a 5 cm refracting telescope with re-imaging optics. A prism inserted in the collimated beam produces low resolution spectra (R = 13 - 25) for wavelength bands from 0.8. &mu;m to 2.0 &mu;m. We use a 256x256 HgCdTe array with a pixel size of 40 &mu;m, producing 1.4' × ~1.4' pixels and total field of view of 5.8deg. Four slits located at the field stop produce 2.8' × ~ 5.8deg strips on the sky, which the prism disperses into separate spectra on the array. As a result, 256 spectra are available for each slit, and a total of 1280 spectra are obtained.</p>
+							<br>
+							<div class="image_wrapper_center">
+								<img src="images/LRS.jpg" alt="Low Resolution Spectrometer photo">
+								</img><br>
+								Schematic of the LRS, which uses a prism to disperse radiation through 5 slits onto a 2562 array. The LRS mounts to the 77 K optical bench opposite the wide-field imager. <a href="images/LRS.jpg">[Click to enlarge]</a>
+							</div>
+							
+							<div class="image_wrapper_right">
+								<img src="images/lrsdetection.gif" alt="Low Resolution Spectrometer detection">
+								</img><br>
+								LRS detection limits at 1σ significance (dashed lines) for a single pixel, and for co-adding 400 spatial pixels. The IRTS and HST extragalactic background are shown as red and green data points, respectively. The rms fluctuations reported by the IRTS are shown as blue data points. The zodiacal light spectrum at the ecliptic pole is shown for reference. <a href="images/lrsdetection.gif">[Click to enlarge]</a>
+							</div>
+							<p>The expected LRS sensitivity (summarized in at left) is sufficient to measure the spectra of the IRB excess and the IRB fluctuations reported by the IRTS. In order to obtain an accurate spectrum of the sky, after rejecting spectra that include point sources brighter than 18th mag, 900 individual spectra can be co-added. The resulting sensitivity with 400 spectra, shown by the dashed line in the figure below, allows us to detect the absolute sky brightness with S/N > 100 in only 15 s of integration time.</p>
+
+							<p>In fields where more observation time is available we can probe the spectrum of the fluctuating component reported by IRTS. In a single pixel in 50 s, we can detect IRTS fluctuations with S/N ~ 5 as shown in Fig. 8. We anticipate having 1280 spatially independent pixels to this sensitivity.</p>
+
+							<p>In order to subtract the Zodiacal foreground for a deeper search, we use the NBS line strength as an absolute tracer of Zodiacal emission. The Zodiacal color between the LRS and NBS is determined by the difference brightness of fields over a range of ecliptic latitudes. The data is also be directly compared with DIRBE, as have scheduled our observations so that all the fields fall within the range of solar elongation angles observed by DIRBE.</p>
+
+							<p>The LRS will be absolutely calibrated in the lab with calibrated lamps and a beam-filling thermal source. The calibration will also be measured in flight with stars in our field, and may be compared to the lab calibration with an internal transfer lamp.</p>
+							
+							<br>
+							<!-- ------- LRS SPEC TABLE ------- -->
+							<table class="table_style">
+								<tr>
+									<td>Optics</td>
+									<td colspan="2">14 lenses & 1 prism, 5 slits</td>
+								</tr>
+								<tr>
+								<td>Aperture</td>
+									<td>50</td>
+									<td>mm</td>
+								</tr>
+								<tr>
+									<td>F#</td>
+									<td>F/2</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>FOV</td>
+									<td>5.8 along slit</td>
+									<td>degrees</td>
+								</tr>
+								<tr>
+									<td>Pixel size</td>
+									<td>1.4 x 1.4</td>
+									<td>arcmin</td>
+								</tr>
+								<tr>
+									<td>Slit size</td>
+									<td>2 x 256</td>
+									<td>pixels</td>
+								</tr>
+								<tr>	
+									<td>Wavelength</td>
+									<td>0.7 - 1.8</td>
+									<td>&mu;m</td>
+								</tr>
+								<tr>
+									<td>&lambda;/&Delta;&lambda;</td>
+									<td>13 ~ 15</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Optics efficiency</td>
+									<td>0.8</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Array</td>
+									<td>256x256</td>
+									<td>HgCdTe</td>
+								</tr>
+								<tr>
+									<td>Array QE</td>
+									<td>0.6</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Operating temperature</td>
+									<td>77</td>
+									<td>K</td>
+								</tr>
+								<tr>
+									<td>Photo current</td>
+									<td>10 ~ 20</td>
+									<td>e-/s/td>
+								</tr>
+								<tr>
+									<td>Dark current</td>
+									<td>&lt; 0.1</td>
+									<td>e-/s</td>
+								</tr>
+								<tr>
+									<td>Read noise (CDS)</td>
+									<td>&lt; 30</td>
+									<td>e-</td>
+								</tr>
+								<tr>
+									<td>Photon noise (15s)</td>
+									<td>12 ~ 17</td>
+									<td>e-</td>
+								</tr>
+								<tr>
+									<td>Limiting mag (15s)</td>
+									<td>16</td>
+									<td>J band 3&sigma;</td>
+								</tr>
+							</table>
+							<br>
+							
+							<a href="#CIBERtop">[Back to Overview]</a>
+						</div>
+					</div>
+				<br>
+				<br>
+	
+			</div>
+		</div>
+		
+		<br>
+		<br>
+		
+		
+	</div>
+</div>
+<!-- ------------------------- -->
+<!-- ------------------------- -->
+<!-- FOOTER -->
+<div class="footer_wrapper">
+	<div class="footer">
+		<a href="#top"  class="link" alt="return to top">
+		<b>Return to top &UpArrowBar;</b>
+		</a><br>
+		Top image: CIBER launch/T.Arai<br>
+		&copy; 2020, Chi H. Nguyen | chn2906(at)rit.edu<br>
+		All rights reserved | Last updated: 01/2020<br>
+	</div>
+</div>
+
+<!-- ********************************************************************-->
+<!-- ********************************************************************-->
+<!-- SCRIPTS -->
+<script src="js/openMenu.js"></script>
+<script src="js/accordionResponse.js"></script>
+
+<!-- ********************************************************************-->
+<!-- ********************************************************************-->
+
+</body> <!-- WEBSITE CONTENT ENDS -->
+</html>
